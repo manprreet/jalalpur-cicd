@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build started on `date`"
+      # You may include commands here if you need to perform any custom build steps for your WordPress website
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: yes
